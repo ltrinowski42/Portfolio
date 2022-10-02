@@ -1,0 +1,42 @@
+.header {
+    overflow: hidden;
+    background-color:rgb(160, 145, 177);
+    padding: 20 px 10 px;
+}
+
+.header a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18 px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.name {
+    font-size: 25 px;
+    font-weight: bold;
+}
+
+.header a.active {
+    background-color: blue;
+    color:aliceblue;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
