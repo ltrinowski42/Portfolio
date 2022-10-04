@@ -1,109 +1,76 @@
 * {
   box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  font-family: Arial;
-  margin: 0;
+  background-color: #FEB7F9;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-header {
-  padding: 40px;
+.header {
+  overflow: hidden;
+  background-color: #FEB7F9;
+  border-width: 1px;
+  border:black
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
   text-align: center;
-  background: #13293d;
-  color: #fff;
-}
-
-nav {
-  display: flex;
-  background-color: #f00ea5;
-}
-
-nav a {
-  color: #ffffff;
-  padding: 14px 20px;
+  padding: 12px;
   text-decoration: none;
-  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-aside {
-    flex: 1;
-    background-color: #b9c6ae;
-    padding: 20px;
+.header a:hover {
+  background-color:#C7FFE6;
+  color: black;
+}
+
+.header a.active {
+  background-color: #B7D9FE;
+  color: gray;
+}
+
+.header-right {
+  float: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16 px;
+}
+
+.hero {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
   }
-
-.sample-img {
-    background-color: #fff;
-    width: 100%;
-    padding: 20px;
-    height: 200px;
-    border: 1px solid black;
+  .header-right {
+    float: none;
   }
-
-section {
-  flex: 3;
-  background-color: #fff;
-  padding: 20px;
-}
-
-.container-1 {
-    display: flex;
-}
-
-.container-1 section {
-    border: 1px solid;
-    padding: 10 px;
-}
-
-.box-1{
-flex:2;
-order:1;
-}
-
-.box-2{
-flex:2;
-order:2;
-}
-
-.box-3{
-flex:3;
-order:3;
-}
-
-.box-4{
-flex:3;
-order:4;
-}
-
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #13293d;
-  color: #fff;
-}
-
-@media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
-  main,
-  nav {
-    flex-direction: column;
-  }
-  /* Make the sidebar stack below the body */
-  aside {
-    order: 2;
-  }
-  /* Change the header background */
-  header {
-    background: #772014;
-  }
-  /* Change the navbar and footer background */
-  nav,
-  footer {
-    background-color: #bb8588;
-  }
-}
