@@ -77,23 +77,36 @@ section {
   padding: 20px;
 }
 
-.row {
+ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+li {
+  height: 40vh;
+  flex-grow: 1;
+  list-style: none;
+  padding: 12px;
+  /*     overflow: hidden; */
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  box-shadow: 5px 5px 5px transparent;
+  transition: all 0.5s;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0px black;
+}
+
+img:hover {
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px black;
+  transform: scale(1.02);
+  transition: all 0.5s;
 }
 
 footer {
