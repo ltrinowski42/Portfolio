@@ -1,19 +1,18 @@
 * {
   box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: #FEB7F9;
   font-family: 'Courier New', Courier, monospace;
+  flex: 2;
+  margin: 0;
 }
 
 .header {
   overflow: hidden;
-  background-color: #FEB7F9;
-  border-width: 1px;
-  border:black
+  background-color: #E3FFFC;
   padding: 20px 10px;
 }
 
@@ -34,35 +33,50 @@ body {
 }
 
 .header a:hover {
-  background-color:#C7FFE6;
+  background-color: #D6FEFB;
   color: black;
 }
 
 .header a.active {
-  background-color: #B7D9FE;
-  color: gray;
+  background-color: #C2FFF9;
+  color: black;
 }
 
 .header-right {
   float: right;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-p {
-  font-size: 16 px;
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 20px;
 }
 
-.hero {
-  height: 200px;
+section {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.sample-img {
+  background-color: #fff;
   width: 100%;
-  margin-bottom: 25px;
-  background-image: url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover;
-  background-position: center;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+footer {
+  padding: 20px;
+  flex: 4;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
 }
 
 @media screen and (max-width: 500px) {
@@ -74,3 +88,4 @@ p {
   .header-right {
     float: none;
   }
+}
