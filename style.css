@@ -64,11 +64,10 @@ aside {
   padding: 30px;
 }
 
-.responsive {
-  width: 100%;
-  max-width: 400 px;
+.avatar {
+  max-width: 200 px;
   border-radius: 50%;
-  height: auto;
+  overflow: hidden;
 }
 
 section {
@@ -87,7 +86,6 @@ li {
   flex-grow: 1;
   list-style: none;
   padding: 12px;
-  /*     overflow: hidden; */
 }
 
 img {
