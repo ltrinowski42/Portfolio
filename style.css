@@ -50,23 +50,25 @@ main {
 }
 
 .flex-container {
-  display: flex;
+  display: inline-flex;
+  flex: 1;
 }
 
 .flex-container section {
-  flex:1;
+  flex: 2;
 }
 
 aside {
   flex: 1;
   background-color: #deccfe;
-  padding: 20px;
+  padding: 30px;
 }
 
 .responsive {
   width: 100%;
   max-width: 400 px;
   height: auto;
+  border-radius: 50%;
 }
 
 section {
