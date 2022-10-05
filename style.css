@@ -31,12 +31,12 @@ body {
 }
 
 .header a:hover {
-  background-color: #90dcff;
+  background-color: #b1f6e2;
   color: black;
 }
 
 .header a.active {
-  background-color: #b1f6e2;
+  background-color: #90dcff;
   color: black;
 }
 
@@ -49,24 +49,30 @@ main {
   flex-wrap: wrap;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.flex-container section {
+  flex:1;
+}
+
 aside {
   flex: 1;
   background-color: #deccfe;
   padding: 20px;
 }
 
+.responsive {
+  width: 100%;
+  max-width: 400 px;
+  height: auto;
+}
+
 section {
   flex: 3;
   background-color: #deccfe;
   padding: 20px;
-}
-
-.sample-img {
-  background-color: #fff;
-  width: 100%;
-  padding: 20px;
-  height: 200px;
-  border: 1px solid black;
 }
 
 footer {
