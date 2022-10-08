@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: #deccfe;
+  background-color: rgb(222, 204, 254);
 }
 
 body {
@@ -30,8 +30,15 @@ body {
   font-weight: bold;
 }
 
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 .header a:hover {
-  background-color: #b1f6e2;
+  background-color: rgb(177, 246, 226);
   color: black;
 }
 
@@ -44,72 +51,24 @@ body {
   float: right;
 }
 
+.hero {
+  max-width: 100%;
+  height: auto;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
 }
 
-.flex-container {
-  display: inline-flex;
-  flex: 1;
-}
-
-.flex-container section {
-  flex: 2;
-}
-
-aside {
-  flex: 1;
-  background-color: #deccfe;
-  padding: 30px;
-}
-
-.avatar {
-  max-width: 200 px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
 section {
-  flex: 3;
+  display: 3;
   background-color: #deccfe;
   padding: 20px;
-}
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-li {
-  height: 40vh;
-  flex-grow: 1;
-  list-style: none;
-  padding: 12px;
-}
-
-img {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
-  box-shadow: 5px 5px 5px transparent;
-  transition: all 0.5s;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px 0px black;
-}
-
-img:hover {
-  filter: blur(0px);
-  opacity: 1;
-  box-shadow: 0 8px 20px 0px black;
-  transform: scale(1.02);
-  transition: all 0.5s;
 }
 
 footer {
   padding: 20px;
-  flex: 4;
   text-align: center;
   background: #deccfe;
 }
