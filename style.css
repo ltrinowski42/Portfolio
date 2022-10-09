@@ -85,7 +85,7 @@ nav a:last-child {
 .hero {
   height: 600px; 
   width: 100%;
-  background-image: url(https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/hero-banner.png?raw=true);
+  background-image: url(https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/herobanner.png?raw=true);
   background-size: cover;
   background-position: center;
   display: flex;
