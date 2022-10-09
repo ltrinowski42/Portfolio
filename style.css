@@ -92,8 +92,8 @@ nav a:last-child {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 45px;
 }
 
 section {
@@ -134,4 +134,38 @@ section {
 .page-section p {
   font-size: 1em;
   margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.contact address a {
+  color: var(--tertiary);
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-style: normal;
+  background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+  margin: 0 0.2rem 0.1rem;
+  display: inline-block;
+}
+
+.contact address a:hover {
+  background-size: 100% 88%;
+  color: var(--secondary);
 }
