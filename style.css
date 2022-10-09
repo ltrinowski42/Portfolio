@@ -145,7 +145,7 @@ section {
 .flex-item {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
-  color: var(--tertiary);
+  color: var(--dark);
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
@@ -160,10 +160,10 @@ section {
   font-size: 0.9rem;
 }
 
-/* feature first portfolio item */
 .flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+  background-image: url(https://user-images.githubusercontent.com/106125554/192875766-348694a2-449b-40c9-91d0-8c5e5cf38789.jpg);
+  min-height: 400px;
+  flex-basis: 100%;
 }
 
 .flex-item:hover {
