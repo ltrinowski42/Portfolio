@@ -3,9 +3,9 @@
 }
 
 :root {
-  --primary: rgb(222, 204, 254);
+  --primary: rgb(137, 174, 225);
   --secondary: rgb(144, 220, 255);
-  --tertiary: rgb(144, 220, 255);
+  --tertiary: rgb(132, 242, 179);
   --dark: rgb(0, 0, 0);
   --light: rgb(255,255,255) 
 }
@@ -19,6 +19,19 @@ body {
   line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 header {
   padding: 15px 6% 15px 0;
   display: flex;
@@ -29,12 +42,12 @@ header {
 }
 
 header h1 {
-  font-size:2.5em;
+  font-size:3em;
   padding: 5px 5px 5px 6%;
   margin:0;
 }
 
-.avatar {
+ .avatar {
   vertical-align: middle;
   width: 90px;
   height: 90px;
@@ -52,12 +65,12 @@ nav a {
   padding: 5px 10px;
   color: var(--dark);
   margin-right: 10px;
-  background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+  background-image: linear-gradient(270deg, var(--tertiary) 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: center;
   transition: all 0.25s ease-in;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 nav a:hover {
@@ -85,12 +98,40 @@ main {
 
 section {
   display: 3;
-  background-color: #deccfe;
+  background-color: rgb(137, 174, 225);
   padding: 20px;
 }
 
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #deccfe;
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-section {
+  margin: 25px 0;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.page-section > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--secondary);
+  font-size: 3vw;
+  line-height: 1.1;
+}
+
+.page-section > div {
+  flex: 0 0 77%;
+}
+
+.page-section p {
+  font-size: 1em;
+  margin-bottom: 20px;
 }
