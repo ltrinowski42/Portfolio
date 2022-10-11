@@ -161,9 +161,8 @@ section {
 }
 
 .flex-item:first-child {
-  background-image: url(https://user-images.githubusercontent.com/106125554/192875766-348694a2-449b-40c9-91d0-8c5e5cf38789.jpg);
-  min-height: 400px;
-  flex-basis: 100%;
+    min-height: 400px;
+    flex-basis: 100%;
 }
 
 .flex-item:hover {
@@ -178,7 +177,6 @@ section {
 .flex-item h3 {
   font-size: 1.6rem;
 }
-
 .contact address {
   display: flex;
   flex-wrap: wrap;
@@ -188,15 +186,15 @@ section {
 }
 
 .contact address a {
-  color: var(--tertiary);
+  color: var(--dark);
   padding: 5px;
   text-decoration: none;
   font-size: 1.3rem;
   font-style: normal;
-  background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+  background-image: linear-gradient(270deg, #BC86F2 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
-  background-position: bottom;
+  background-position: center;
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
   display: inline-block;
@@ -204,5 +202,5 @@ section {
 
 .contact address a:hover {
   background-size: 100% 88%;
-  color: var(--secondary);
+  color: var(--dark);
 }
