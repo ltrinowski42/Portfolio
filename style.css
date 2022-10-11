@@ -163,15 +163,20 @@ section {
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
+    background-image: url(https://user-images.githubusercontent.com/106125554/192875766-348694a2-449b-40c9-91d0-8c5e5cf38789.jpg);
 }
 
 .flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color:#BC86F2;
 }
 
 .flex-item div {
   background-color: var(--secondary);
   padding: 8px 10px;
+}
+
+.flex-item:hover div {
+  background-image: linear-gradient(270deg, #BC86F2 0%, var(--secondary) 100%);
 }
 
 .flex-item h3 {
