@@ -154,7 +154,7 @@ section {
   padding: 0 0 20px 0;
   margin: 0.5em;
   text-decoration: none;
-  background-blend-mode: soft-light;
+  background-blend-mode:hard-light;
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
@@ -163,11 +163,11 @@ section {
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
-    background-image: url(https://user-images.githubusercontent.com/106125554/192875766-348694a2-449b-40c9-91d0-8c5e5cf38789.jpg);
+    background-image: url(https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/MOSHED-2022-10-11-18-37-9.jpg?raw=true);
 }
 
 .flex-item:hover {
-  background-color:#BC86F2;
+  background-color: #BC86F2;
 }
 
 .flex-item div {
