@@ -23,27 +23,28 @@ Open up url link in web browser to excute code.
 
 ## Usage
 
-![Week-2-Challenge-1](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot1.jpg?raw=true)
-
 Header/nav bar used to display name, avatar, and working links that direct users to each section.
 
+![Week-2-Challenge-1](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot1.jpg?raw=true)
 
-![Week-2-Challenge-2](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot2.jpg?raw=true)
 
 About me section used in application.
 
+![Week-2-Challenge-2](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot2.jpg?raw=true)
 
-![Week-2-Challenge-3](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot3.jpg?raw=true)
 
 Work section used in application to display titled projects. Clicking on images brings users to application; first image larger than others.
 
+![Week-2-Challenge-3](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot3.jpg?raw=true)
 
-![Week-2-Challenge-4](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot4.jpg?raw=true)
 
 Contact me section with working links to various ways of contact.
 
+![Week-2-Challenge-4](https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/ReadMe-Screenshot4.jpg?raw=true)
 
-Portfolio has responsive design when window is resized.
+
+
+In additon to the above, portfolio has responsive design when window is resized.
 
 
 ## Credits
