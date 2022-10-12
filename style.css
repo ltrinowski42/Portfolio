@@ -163,7 +163,7 @@ section {
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
-    background-image: url(https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/MOSHED-2022-10-11-18-37-9.jpg?raw=true);
+    background-image: url(https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/Week-1-Challenge.jpg?raw=true);
 }
 
 .flex-item:hover {
@@ -182,6 +182,15 @@ section {
 .flex-item h3 {
   font-size: 1.6rem;
 }
+
+.prework-study-guide {
+  background-image: url(https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/Pre-Work-Studyguide.jpg?raw=true);
+}
+
+.calculator {
+  background-image: url(https://github.com/ltrinowski42/Week-2-Challenge/blob/main/Assets/Calculator.jpg?raw=true);
+}
+
 .contact address {
   display: flex;
   flex-wrap: wrap;
