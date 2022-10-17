@@ -47,6 +47,9 @@ Contact me section with working links to various ways of contact.
 In additon to the above, portfolio has responsive design when window is resized.
 
 
+Deployed application URL: https://ltrinowski42.github.io/Portfolio/
+
+
 ## Credits
 
 Used various sources to help with code such as W3Schools, MDN Web Docs, CSS-Tricks, UCF Bootcamp Class Repo, and Google 
