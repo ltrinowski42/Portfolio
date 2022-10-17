@@ -262,9 +262,8 @@ section {
     min-height: 150px;
   }
 
-  .hero-banner {
+  .hero {
     justify-content: center;
-    text-align: center;
   }
 
   .contact address {
